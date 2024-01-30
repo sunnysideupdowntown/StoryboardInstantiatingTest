@@ -13,6 +13,10 @@
 		2647A41A2B6907C50030545F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2647A4182B6907C50030545F /* Main.storyboard */; };
 		2647A41C2B6907C50030545F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2647A41B2B6907C50030545F /* Assets.xcassets */; };
 		2647A41F2B6907C50030545F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2647A41D2B6907C50030545F /* LaunchScreen.storyboard */; };
+		2647A4272B6907DF0030545F /* RedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647A4262B6907DF0030545F /* RedViewController.swift */; };
+		2647A42A2B6907F00030545F /* RedViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2647A4292B6907F00030545F /* RedViewController.storyboard */; };
+		2647A42C2B69080A0030545F /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2647A42B2B69080A0030545F /* BlueViewController.swift */; };
+		2647A42E2B6908280030545F /* BlueViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2647A42D2B6908280030545F /* BlueViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		2647A41B2B6907C50030545F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2647A41E2B6907C50030545F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2647A4202B6907C50030545F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2647A4262B6907DF0030545F /* RedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedViewController.swift; sourceTree = "<group>"; };
+		2647A4292B6907F00030545F /* RedViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RedViewController.storyboard; sourceTree = "<group>"; };
+		2647A42B2B69080A0030545F /* BlueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
+		2647A42D2B6908280030545F /* BlueViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BlueViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,23 @@
 				2647A4142B6907C50030545F /* SceneDelegate.swift */,
 				2647A4162B6907C50030545F /* ViewController.swift */,
 				2647A4182B6907C50030545F /* Main.storyboard */,
+				2647A4282B6907E40030545F /* ViewControllers */,
 				2647A41B2B6907C50030545F /* Assets.xcassets */,
 				2647A41D2B6907C50030545F /* LaunchScreen.storyboard */,
 				2647A4202B6907C50030545F /* Info.plist */,
 			);
 			path = StoryboardInstantiatingTest;
+			sourceTree = "<group>";
+		};
+		2647A4282B6907E40030545F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2647A4262B6907DF0030545F /* RedViewController.swift */,
+				2647A4292B6907F00030545F /* RedViewController.storyboard */,
+				2647A42B2B69080A0030545F /* BlueViewController.swift */,
+				2647A42D2B6908280030545F /* BlueViewController.storyboard */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2647A41F2B6907C50030545F /* LaunchScreen.storyboard in Resources */,
+				2647A42A2B6907F00030545F /* RedViewController.storyboard in Resources */,
 				2647A41C2B6907C50030545F /* Assets.xcassets in Resources */,
+				2647A42E2B6908280030545F /* BlueViewController.storyboard in Resources */,
 				2647A41A2B6907C50030545F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2647A4272B6907DF0030545F /* RedViewController.swift in Sources */,
 				2647A4172B6907C50030545F /* ViewController.swift in Sources */,
 				2647A4132B6907C50030545F /* AppDelegate.swift in Sources */,
+				2647A42C2B69080A0030545F /* BlueViewController.swift in Sources */,
 				2647A4152B6907C50030545F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
