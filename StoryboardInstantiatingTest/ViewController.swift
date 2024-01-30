@@ -15,16 +15,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func redButtonTapped(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "RedViewController", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "RedViewController")
-        let redViewController = viewController as! RedViewController
+        let redViewController = RedViewController.create()
         self.present(redViewController, animated: true)
     }
 
     @IBAction func blueButtonTapped(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "BlueViewController", bundle: nil)
-        let viewController = storyboard.instantiateViewController(withIdentifier: "BlueViewController")
-        let blueViewController = viewController as! BlueViewController
+        let blueViewController = BlueViewController.create()
         self.present(blueViewController, animated: true)
     }
 }
