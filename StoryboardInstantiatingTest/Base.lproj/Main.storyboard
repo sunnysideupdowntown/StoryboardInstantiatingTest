@@ -25,7 +25,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Red"/>
                                         <connections>
-                                            <segue destination="ftm-IC-y5A" kind="show" id="ySU-Na-Lbo"/>
+                                            <action selector="redButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ftS-IS-JrF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="adc-fq-G1a">
@@ -33,7 +33,7 @@
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Blue"/>
                                         <connections>
-                                            <segue destination="jP8-Q2-lvp" kind="show" id="oOi-VE-O0y"/>
+                                            <action selector="blueButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XTf-dg-EY0"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -50,26 +50,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="76" y="-2"/>
-        </scene>
-        <!--RedViewController-->
-        <scene sceneID="4hd-xA-MDR">
-            <objects>
-                <viewControllerPlaceholder storyboardName="RedViewController" referencedIdentifier="RedViewController" id="ftm-IC-y5A" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="eid-oI-GJr"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="T3m-NO-x60" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="909" y="-35"/>
-        </scene>
-        <!--BlueViewController-->
-        <scene sceneID="JGX-Xo-64U">
-            <objects>
-                <viewControllerPlaceholder storyboardName="BlueViewController" referencedIdentifier="BlueViewController" id="jP8-Q2-lvp" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="gc1-sW-yYB"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Lfl-4t-1tu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="903" y="72"/>
         </scene>
     </scenes>
     <resources>
